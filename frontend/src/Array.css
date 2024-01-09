@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.array-background{
+    background: url('../public/background.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+.logo-txt{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+.array-main{
+    width: 100%;
+    overflow-x: hidden;
+}
+.array-home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    margin-right: 40px;
+}
+.array-nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    margin-top: 10px;
+}
+.nav-txt{
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+}
+.nav-txt1{
+    font-size: 18px;
+    color: white;
+    margin-top: 5px;
+}
+.nav-txt1:hover {
+    color: black;
+}
+.array-txt{
+    font-size: 5rem;
+    mix-blend-mode: overlay;
+}
+.array-background img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.left-gate{
+    position: fixed;
+    transform: translateX(-282px);
+}
+.right-gate{
+    position: fixed;
+    transform: translateX(305px);
+}
+.array-grass{
+    margin-top: -87px;
+}
+.array-parallax{
+    position: relative;
+    background-color: #020912;
+    padding: 30px;
+}
+.array-parallax h1{
+    font-size: 3rem;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.array-parallax p{
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: 300;
+    text-align: justify;
+}
+.hide-txt{
+    display: none;
+}
+.nav-button{
+    width: 110px;
+    height: 35px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-button1:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+
+}
+.nav-button1{
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
